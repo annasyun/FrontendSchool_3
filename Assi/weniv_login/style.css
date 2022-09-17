@@ -1,0 +1,82 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* { font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    box-sizing: border-box; 
+}
+
+/* 전체적인 텍스트 */
+span {
+    font-size: 12px;
+}
+
+.find_id_pw,.sign_up {
+    color: #767676;
+}
+
+/* 상단 그리팅 메세지 */
+.login_greeting {
+    font-size: 12px;
+    font-weight:400;
+    line-height: 15.02px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+/* 전체 요소 */
+/* 유연함을 위해 height값은 지정안해줘도 됨 */
+.wrapper {
+    margin: 30px auto;
+    width: 350px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    padding: 19px 16px 18px 16px;
+}
+
+/* weniv 로그인박스 부분 / 텍스트 세로정렬이 안된다.... */
+.login_main {
+    background-color: #711BFF;
+    border: 0px;
+    border-radius: 4px;
+    color:#FFFFFF;
+    text-align: center;
+    width: 318px;
+    vertical-align: middle;
+    height: 40px;
+    padding:5px;
+}
+
+
+.weniv_logo {
+    vertical-align:middle;
+    width: 64px;
+    height: 18px;
+}
+/* id & pw찾기 + 회원가입 */
+.login_sub {
+    margin-top: 17px;
+    overflow: hidden; /*float의 부모요소이기 때문에, float해제 시켜줘야함!!*/
+}
+
+.login_sub1 {
+    float: left;
+    text-decoration: none;
+}
+
+.lock {
+    width: 16px;
+    height: 16px;
+    vertical-align:middle;
+
+}
+
+.login_sub2 {
+    float: right;
+    text-decoration: none;
+}
+
+.user {
+    width: 16px;
+    height: 16px;
+    vertical-align:middle;
+
+}
