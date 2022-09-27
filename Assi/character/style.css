@@ -1,0 +1,88 @@
+.character { 
+    width: 200px;
+    height: 230px;
+    background-color: orange;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 90% 90% 0% 0%;
+    border: 10px solid black;
+}
+
+.radar {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    transform: translate3d(-50%, -50%, 0) rotate(90deg);
+    position: absolute;
+    left: 50%;
+    top: -10%;
+}
+
+.pointed {
+    width: 60px;
+    height: 60px;
+    background: red linear-gradient(red, orange );
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    transform: translate3d(-50%, -50%, 0) rotate(270deg);
+}
+
+.face {
+    width: 200px;
+    height: 220px;
+    background-color:orange;
+    position: relative;
+    border-radius: 90% 90% 0% 0%;
+}
+
+.eye {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.eye.left {
+    top: 60px;
+    left: 60px;
+}
+
+.eye.right {
+    top: 60px;
+    right: 60px;
+}
+
+.blush {
+    width: 20px;
+    height: 10px;
+    background-color:pink;
+    position: absolute;
+    border-radius: 30%;
+}
+
+.blush.left {
+    top: 50%;
+    left: 20px;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.blush.right {
+    top: 50%;
+    right: 0px;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.mouth {
+    width: 20px;
+    height: 9px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0) rotate(90deg);
+    border-radius: 50%;
+    background-color: #d31f3a;
+    box-shadow: 1px 1px;
+}
